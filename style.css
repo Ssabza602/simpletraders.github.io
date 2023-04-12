@@ -1,0 +1,285 @@
+body{
+  background-color: ;
+margin:0;
+justify-content: center;
+align-content: center;
+align-items: center;
+justify-items: center;
+display: absolute ;
+z-index: 10px;
+position: relative;
+width: 100%;
+
+}
+#box{
+
+  width: 100%;
+  height: 300px;
+  border: solid transparent;
+background-color: black;
+
+position: sticky;
+
+
+}
+#box2{
+  width: 100%;
+  height: 100px;
+  border: solid  transparent;
+
+
+}
+h1{
+  font-weight: 800;
+  font-size: 50px;
+  text-transform: uppercase;
+  color:#828282;
+}
+h2{
+  color: white;
+}
+        h1 {
+            -moz-animation-duration: 2s;
+            -webkit-animation-duration: 2s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 50px;
+         }
+                h2 {
+            -moz-animation-duration: 3s;
+            -webkit-animation-duration: 3s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+            text-transform: uppercase;
+            font-weight: ;
+           
+         }
+         @-moz-keyframes slidein {
+            from {
+               margin-bottom:100%;
+               width:300%
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+      @-moz-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes slide {
+            from {
+               margin-top:100%;
+               width:300%
+            }
+            to {
+               margin-top:0%;
+               width:100%;
+            }
+         }
+                         #box2 {
+            -moz-animation-duration: 2s;
+            -webkit-animation-duration: 4s;
+            -moz-animation-name: slide;
+            -webkit-animation-name: slide;
+            text-transform: uppercase;
+            font-weight: 200;
+           
+         }
+         h3{
+           text-transform: uppercase;
+           font-size: 30px;
+           font-weight: 300;
+           
+         }
+
+      #box4{
+           width: 300px;
+           height: 310px;
+           border: solid transparent;
+           margin: 60px auto;
+           @-moz-border-radius-bottomleft: 30px;
+           @-moz-border-radius-bottomright: 30px;
+           background-color: gray;
+           border-bottom-left-radius: 30px;
+              border-bottom-right-radius: 30px;
+              position: relative;
+              left: -1px;
+         }    
+         
+         #box3{
+           width: 300px;
+           height: 440px;
+           border: solid transparent;
+           margin: 60px auto;
+               border-radius: 30px;
+               background-color: black;
+               float: left;
+               position: relative;
+               left: 10%;
+               margin: 30px 5% 30px;
+      
+         }
+         h5{
+           font-weight: 200;
+           font-size: 20px;
+         }
+         h6{
+           font-size: 30px;
+           position: relative;
+           bottom: -30px;
+           text-transform: uppercase;
+           color:#268c51 ;
+         }
+         h7{
+           text-transform: uppercase;
+           position: relative;
+        
+           word-spacing: 2px;
+         }
+         h8{
+           font-size: 30px;
+           font-weight: 1000;
+           color:#1f809e ;
+           text-transform: uppercase;
+         }
+         
+         #block{
+           width: 30px;
+           height: 30px;
+           border: solid transparent;
+           margin: 40px auto;
+         }
+         hr{
+           border:none ;
+         }
+         h4{
+           color: white;
+           text-transform: uppercase;
+           font-size: 25px;
+           font-weight: 200;
+         }
+         a{
+           text-decoration: none;
+           font-weight: 200;
+           font-size: 30px;
+           color:#15ee6e;
+           text-transform: uppercase;
+         }
+         p{
+           color: white;
+           font-size: 25px;
+           text-transform: uppercase;
+         }
+         h8{
+           position: relative;
+           
+         }
+         #hedd{
+           position: relative;
+           left: 10px;
+         }
+         h9{
+           font-size: 24px ;
+           font-weight: 300;
+                 word-spacing: 2px;
+                     text-transform: uppercase;
+         }
+         #end{
+           width: 100%;
+           height: 150px;
+           border: solid gray;
+           margin: 50px auto;
+           background-color: gray;
+           margin-bottom: 1px;
+          
+         }
+         h10{
+           font-weight: 400;
+           font-size: 20px;
+           color: white;
+           position: relative;
+           bottom: -40px;
+               text-transform: uppercase;
+         }
+         button{
+           
+           text-transform: uppercase;
+           padding: 20px 60px ;
+           border-radius: 20px;
+           margin-bottom: 100px;
+           font-weight: 800;
+           font-size: 20px;
+           color: blue;
+           border: solid blue;
+           margin-top: 50px;
+         }
+                  #btn2{
+           
+           text-transform: uppercase;
+           padding: 20px 60px ;
+           border-radius: 20px;
+           margin-top: 20px;
+           font-weight: 800;
+           font-size: 20px;
+           color:white ;
+           border: solid ;
+           background-color: black;
+         }
+         h12{
+           font-weight: 800;
+           font-size: 25px;
+           color: gray;
+           text-transform: uppercase;
+         }
+                  h13{
+           font-weight: 300;
+           font-size: 17px;
+           color: ;
+           text-transform: uppercase;
+                 word-spacing: 2px;
+         }
+         span{
+           text-transform: uppercase;
+           
+         }
+         #tel{
+           font-size: 20px;
+           color: blue;
+           font-weight: 600;
+           margin-top: 30px;
+           position: relative;
+           bottom: -30px;
+         }
+         #bttn{
+           background-color: white;
+           color: white;
+           border: none;
+         }
+         h15{
+           font-weight: 200;
+           font-size: 30px;
+         }
+         #heddi{
+           color: black;
+           font-size: 35px;
+         }
